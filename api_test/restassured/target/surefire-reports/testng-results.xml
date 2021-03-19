@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-19T01:22:17Z" name="LocalExecution" finished-at="2021-03-19T01:22:39Z" duration-ms="22670">
+    <groups>
+      <group name="postCreate">
+        <method signature="CommentTest.Test_02Call_Comment_Successful_All()[pri:0, instance:CommentTest@77a57272]" name="Test_02Call_Comment_Successful_All" class="CommentTest"/>
+        <method signature="CommentTest.Test_03Call_Comment_Successful_One()[pri:0, instance:CommentTest@77a57272]" name="Test_03Call_Comment_Successful_One" class="CommentTest"/>
+        <method signature="CommentTest.Test_04Update_Comment_Successful()[pri:0, instance:CommentTest@77a57272]" name="Test_04Update_Comment_Successful" class="CommentTest"/>
+        <method signature="CommentTest.Test_05Delete_Comment_Successful()[pri:0, instance:CommentTest@77a57272]" name="Test_05Delete_Comment_Successful" class="CommentTest"/>
+        <method signature="PostTest.Test_13Call_Post_Successful_One()[pri:0, instance:PostTest@33cb5951]" name="Test_13Call_Post_Successful_One" class="PostTest"/>
+        <method signature="PostTest.Test_14Update_Post_Successful()[pri:0, instance:PostTest@33cb5951]" name="Test_14Update_Post_Successful" class="PostTest"/>
+        <method signature="PostTest.Test_15Delete_Post_Successful()[pri:0, instance:PostTest@33cb5951]" name="Test_15Delete_Post_Successful" class="PostTest"/>
+        <method signature="PostTestNoSuccessful.Test_33Call_Post_Unsuccessful_One()[pri:0, instance:PostTestNoSuccessful@11e21d0e]" name="Test_33Call_Post_Unsuccessful_One" class="PostTestNoSuccessful"/>
+        <method signature="PostTestNoSuccessful.Test_34Update_Post_Unsuccessful()[pri:0, instance:PostTestNoSuccessful@11e21d0e]" name="Test_34Update_Post_Unsuccessful" class="PostTestNoSuccessful"/>
+        <method signature="PostTestNoSuccessful.Test_35Delete_Post_Unsuccessful()[pri:0, instance:PostTestNoSuccessful@11e21d0e]" name="Test_35Delete_Post_Unsuccessful" class="PostTestNoSuccessful"/>
+        <method signature="CommentTestNoSuccessful.Test_52Call_Comment_Successful_All()[pri:0, instance:CommentTestNoSuccessful@37574691]" name="Test_52Call_Comment_Successful_All" class="CommentTestNoSuccessful"/>
+        <method signature="CommentTestNoSuccessful.Test_53Call_Comment_Successful_One()[pri:0, instance:CommentTestNoSuccessful@37574691]" name="Test_53Call_Comment_Successful_One" class="CommentTestNoSuccessful"/>
+        <method signature="CommentTestNoSuccessful.Test_54Update_Comment_Successful()[pri:0, instance:CommentTestNoSuccessful@37574691]" name="Test_54Update_Comment_Successful" class="CommentTestNoSuccessful"/>
+        <method signature="CommentTestNoSuccessful.Test_55Delete_Comment_Successful()[pri:0, instance:CommentTestNoSuccessful@37574691]" name="Test_55Delete_Comment_Successful" class="CommentTestNoSuccessful"/>
+      </group> <!-- postCreate -->
+    </groups>
+    <test started-at="2021-03-19T01:22:17Z" name="UserTests" finished-at="2021-03-19T01:22:23Z" duration-ms="6596">
+      <class name="UserTests">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:UserTests@15bfd87]" started-at="2021-03-19T01:22:17Z" name="setup" finished-at="2021-03-19T01:22:18Z" duration-ms="1180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="showStatus()[pri:0, instance:UserTests@15bfd87]" started-at="2021-03-19T01:22:18Z" name="showStatus" finished-at="2021-03-19T01:22:18Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- showStatus -->
+        <test-method signature="Test_00Creat_User_Already_Exist()[pri:0, instance:UserTests@15bfd87]" started-at="2021-03-19T01:22:18Z" name="Test_00Creat_User_Already_Exist" finished-at="2021-03-19T01:22:22Z" duration-ms="4363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_00Creat_User_Already_Exist -->
+        <test-method signature="Test_00Creat_User_Successful()[pri:0, instance:UserTests@15bfd87]" started-at="2021-03-19T01:22:22Z" name="Test_00Creat_User_Successful" finished-at="2021-03-19T01:22:23Z" duration-ms="969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_00Creat_User_Successful -->
+      </class> <!-- UserTests -->
+    </test> <!-- UserTests -->
+    <test started-at="2021-03-19T01:22:17Z" name="CommentTests" finished-at="2021-03-19T01:22:27Z" duration-ms="10741">
+      <class name="CommentTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CommentTest@77a57272]" started-at="2021-03-19T01:22:17Z" name="setup" finished-at="2021-03-19T01:22:18Z" duration-ms="1180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="updateStaticVariables()[pri:0, instance:CommentTest@77a57272]" started-at="2021-03-19T01:22:18Z" name="updateStaticVariables" finished-at="2021-03-19T01:22:24Z" duration-ms="5883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateStaticVariables -->
+        <test-method signature="Test_01Creat_Comment_Successful()[pri:0, instance:CommentTest@77a57272]" started-at="2021-03-19T01:22:24Z" name="Test_01Creat_Comment_Successful" finished-at="2021-03-19T01:22:24Z" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_01Creat_Comment_Successful -->
+        <test-method is-config="true" signature="checkComment()[pri:0, instance:CommentTest@77a57272]" started-at="2021-03-19T01:22:24Z" name="checkComment" finished-at="2021-03-19T01:22:25Z" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkComment -->
+        <test-method signature="Test_02Call_Comment_Successful_All()[pri:0, instance:CommentTest@77a57272]" started-at="2021-03-19T01:22:25Z" name="Test_02Call_Comment_Successful_All" finished-at="2021-03-19T01:22:25Z" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_02Call_Comment_Successful_All -->
+        <test-method signature="Test_03Call_Comment_Successful_One()[pri:0, instance:CommentTest@77a57272]" started-at="2021-03-19T01:22:25Z" name="Test_03Call_Comment_Successful_One" finished-at="2021-03-19T01:22:26Z" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_03Call_Comment_Successful_One -->
+        <test-method signature="Test_04Update_Comment_Successful()[pri:0, instance:CommentTest@77a57272]" started-at="2021-03-19T01:22:26Z" name="Test_04Update_Comment_Successful" finished-at="2021-03-19T01:22:27Z" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_04Update_Comment_Successful -->
+        <test-method signature="Test_05Delete_Comment_Successful()[pri:0, instance:CommentTest@77a57272]" started-at="2021-03-19T01:22:27Z" name="Test_05Delete_Comment_Successful" finished-at="2021-03-19T01:22:27Z" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_05Delete_Comment_Successful -->
+      </class> <!-- CommentTest -->
+    </test> <!-- CommentTests -->
+    <test started-at="2021-03-19T01:22:23Z" name="PostTests" finished-at="2021-03-19T01:22:34Z" duration-ms="10596">
+      <class name="PostTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:PostTest@33cb5951]" started-at="2021-03-19T01:22:23Z" name="setup" finished-at="2021-03-19T01:22:23Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_11Creat_Post_Successful()[pri:0, instance:PostTest@33cb5951]" started-at="2021-03-19T01:22:23Z" name="Test_11Creat_Post_Successful" finished-at="2021-03-19T01:22:25Z" duration-ms="1507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_11Creat_Post_Successful -->
+        <test-method signature="Test_12Call_Post_Successful_All()[pri:0, instance:PostTest@33cb5951]" started-at="2021-03-19T01:22:25Z" name="Test_12Call_Post_Successful_All" finished-at="2021-03-19T01:22:27Z" duration-ms="1998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_12Call_Post_Successful_All -->
+        <test-method is-config="true" signature="checkPost()[pri:0, instance:PostTest@33cb5951]" started-at="2021-03-19T01:22:27Z" name="checkPost" finished-at="2021-03-19T01:22:29Z" duration-ms="1804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPost -->
+        <test-method signature="Test_13Call_Post_Successful_One()[pri:0, instance:PostTest@33cb5951]" started-at="2021-03-19T01:22:29Z" name="Test_13Call_Post_Successful_One" finished-at="2021-03-19T01:22:30Z" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_13Call_Post_Successful_One -->
+        <test-method signature="Test_14Update_Post_Successful()[pri:0, instance:PostTest@33cb5951]" started-at="2021-03-19T01:22:30Z" name="Test_14Update_Post_Successful" finished-at="2021-03-19T01:22:32Z" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_14Update_Post_Successful -->
+        <test-method signature="Test_15Delete_Post_Successful()[pri:0, instance:PostTest@33cb5951]" started-at="2021-03-19T01:22:32Z" name="Test_15Delete_Post_Successful" finished-at="2021-03-19T01:22:34Z" duration-ms="1799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_15Delete_Post_Successful -->
+      </class> <!-- PostTest -->
+    </test> <!-- PostTests -->
+    <test started-at="2021-03-19T01:22:27Z" name="PostTestNoSuccessful" finished-at="2021-03-19T01:22:38Z" duration-ms="10776">
+      <class name="PostTestNoSuccessful">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:PostTestNoSuccessful@11e21d0e]" started-at="2021-03-19T01:22:27Z" name="setup" finished-at="2021-03-19T01:22:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_31Creat_Post_Unsuccessful()[pri:0, instance:PostTestNoSuccessful@11e21d0e]" started-at="2021-03-19T01:22:27Z" name="Test_31Creat_Post_Unsuccessful" finished-at="2021-03-19T01:22:29Z" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_31Creat_Post_Unsuccessful -->
+        <test-method signature="Test_32Call_Post_Unsuccessful_All()[pri:0, instance:PostTestNoSuccessful@11e21d0e]" started-at="2021-03-19T01:22:29Z" name="Test_32Call_Post_Unsuccessful_All" finished-at="2021-03-19T01:22:29Z" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_32Call_Post_Unsuccessful_All -->
+        <test-method is-config="true" signature="checkPost()[pri:0, instance:PostTestNoSuccessful@11e21d0e]" started-at="2021-03-19T01:22:29Z" name="checkPost" finished-at="2021-03-19T01:22:34Z" duration-ms="4626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPost -->
+        <test-method signature="Test_33Call_Post_Unsuccessful_One()[pri:0, instance:PostTestNoSuccessful@11e21d0e]" started-at="2021-03-19T01:22:34Z" name="Test_33Call_Post_Unsuccessful_One" finished-at="2021-03-19T01:22:36Z" duration-ms="1433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_33Call_Post_Unsuccessful_One -->
+        <test-method signature="Test_34Update_Post_Unsuccessful()[pri:0, instance:PostTestNoSuccessful@11e21d0e]" started-at="2021-03-19T01:22:36Z" name="Test_34Update_Post_Unsuccessful" finished-at="2021-03-19T01:22:37Z" duration-ms="1454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_34Update_Post_Unsuccessful -->
+        <test-method signature="Test_35Delete_Post_Unsuccessful()[pri:0, instance:PostTestNoSuccessful@11e21d0e]" started-at="2021-03-19T01:22:37Z" name="Test_35Delete_Post_Unsuccessful" finished-at="2021-03-19T01:22:38Z" duration-ms="1138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_35Delete_Post_Unsuccessful -->
+      </class> <!-- PostTestNoSuccessful -->
+    </test> <!-- PostTestNoSuccessful -->
+    <test started-at="2021-03-19T01:22:34Z" name="CommentTestNoSuccessful" finished-at="2021-03-19T01:22:39Z" duration-ms="5429">
+      <class name="CommentTestNoSuccessful">
+        <test-method is-config="true" signature="updateStaticVariables()[pri:0, instance:CommentTestNoSuccessful@37574691]" started-at="2021-03-19T01:22:34Z" name="updateStaticVariables" finished-at="2021-03-19T01:22:35Z" duration-ms="1575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateStaticVariables -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:CommentTestNoSuccessful@37574691]" started-at="2021-03-19T01:22:34Z" name="setup" finished-at="2021-03-19T01:22:34Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Test_51Creat_Comment_Successful()[pri:0, instance:CommentTestNoSuccessful@37574691]" started-at="2021-03-19T01:22:35Z" name="Test_51Creat_Comment_Successful" finished-at="2021-03-19T01:22:36Z" duration-ms="536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_51Creat_Comment_Successful -->
+        <test-method is-config="true" signature="checkComment()[pri:0, instance:CommentTestNoSuccessful@37574691]" started-at="2021-03-19T01:22:36Z" name="checkComment" finished-at="2021-03-19T01:22:36Z" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkComment -->
+        <test-method signature="Test_52Call_Comment_Successful_All()[pri:0, instance:CommentTestNoSuccessful@37574691]" started-at="2021-03-19T01:22:36Z" name="Test_52Call_Comment_Successful_All" finished-at="2021-03-19T01:22:38Z" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_52Call_Comment_Successful_All -->
+        <test-method signature="Test_53Call_Comment_Successful_One()[pri:0, instance:CommentTestNoSuccessful@37574691]" started-at="2021-03-19T01:22:38Z" name="Test_53Call_Comment_Successful_One" finished-at="2021-03-19T01:22:38Z" duration-ms="507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_53Call_Comment_Successful_One -->
+        <test-method signature="Test_54Update_Comment_Successful()[pri:0, instance:CommentTestNoSuccessful@37574691]" started-at="2021-03-19T01:22:38Z" name="Test_54Update_Comment_Successful" finished-at="2021-03-19T01:22:39Z" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_54Update_Comment_Successful -->
+        <test-method signature="Test_55Delete_Comment_Successful()[pri:0, instance:CommentTestNoSuccessful@37574691]" started-at="2021-03-19T01:22:39Z" name="Test_55Delete_Comment_Successful" finished-at="2021-03-19T01:22:39Z" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_55Delete_Comment_Successful -->
+      </class> <!-- CommentTestNoSuccessful -->
+    </test> <!-- CommentTestNoSuccessful -->
+  </suite> <!-- LocalExecution -->
+</testng-results>

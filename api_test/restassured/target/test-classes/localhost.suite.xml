@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LocalExecution" thread-count="2" parallel="tests">
+
+    <parameter name="baseUrl" value="http://localhost:9000"></parameter>
+
+    <test name="UserTests">
+        <classes>
+            <class name="UserTests"></class>
+        </classes>
+
+    </test>
+
+</suite>

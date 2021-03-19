@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.232" tests="22" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/andnovoa/eclipse-workspace/10-RestAssured/restassured/target/test-classes:/Users/andnovoa/eclipse-workspace/10-RestAssured/restassured/target/classes:/Users/andnovoa/.m2/repository/io/rest-assured/rest-assured/4.3.1/rest-assured-4.3.1.jar:/Users/andnovoa/.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/andnovoa/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.3/groovy-xml-3.0.3.jar:/Users/andnovoa/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/andnovoa/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/andnovoa/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/andnovoa/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/andnovoa/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/andnovoa/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/andnovoa/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/andnovoa/.m2/repository/io/rest-assured/xml-path/4.3.1/xml-path-4.3.1.jar:/Users/andnovoa/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/andnovoa/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/andnovoa/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/andnovoa/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/andnovoa/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/andnovoa/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/andnovoa/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/andnovoa/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar:/Users/andnovoa/.m2/repository/org/codehaus/groovy/groovy-json/3.0.3/groovy-json-3.0.3.jar:/Users/andnovoa/.m2/repository/io/rest-assured/rest-assured-common/4.3.1/rest-assured-common-4.3.1.jar:/Users/andnovoa/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/andnovoa/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.0/jackson-databind-2.6.0.jar:/Users/andnovoa/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar:/Users/andnovoa/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/andnovoa/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/andnovoa/eclipse-workspace/10-RestAssured/restassured/target/surefire/surefirebooter5419807345810848309.jar /Users/andnovoa/eclipse-workspace/10-RestAssured/restassured/target/surefire 2021-03-18T20-22-15_693-jvmRun1 surefire16934876675540318299tmp surefire_014372566263556606738tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/andnovoa/eclipse-workspace/10-RestAssured/restassured/target/test-classes:/Users/andnovoa/eclipse-workspace/10-RestAssured/restassured/target/classes:/Users/andnovoa/.m2/repository/io/rest-assured/rest-assured/4.3.1/rest-assured-4.3.1.jar:/Users/andnovoa/.m2/repository/org/codehaus/groovy/groovy/3.0.3/groovy-3.0.3.jar:/Users/andnovoa/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.3/groovy-xml-3.0.3.jar:/Users/andnovoa/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/andnovoa/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/andnovoa/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/andnovoa/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/andnovoa/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/andnovoa/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/andnovoa/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/andnovoa/.m2/repository/io/rest-assured/xml-path/4.3.1/xml-path-4.3.1.jar:/Users/andnovoa/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/Users/andnovoa/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/andnovoa/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/andnovoa/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/andnovoa/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/andnovoa/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/andnovoa/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/andnovoa/.m2/repository/io/rest-assured/json-path/4.3.1/json-path-4.3.1.jar:/Users/andnovoa/.m2/repository/org/codehaus/groovy/groovy-json/3.0.3/groovy-json-3.0.3.jar:/Users/andnovoa/.m2/repository/io/rest-assured/rest-assured-common/4.3.1/rest-assured-common-4.3.1.jar:/Users/andnovoa/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/Users/andnovoa/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.6.0/jackson-databind-2.6.0.jar:/Users/andnovoa/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar:/Users/andnovoa/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/andnovoa/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/andnovoa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/andnovoa/eclipse-workspace/10-RestAssured/restassured"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/andnovoa/eclipse-workspace/10-RestAssured/restassured/target/surefire/surefirebooter5419807345810848309.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="user.name" value="andnovoa"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/andnovoa/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/x_/_8jlfvsd2x3_q27rfn26q6c5n9926d/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/andnovoa/eclipse-workspace/10-RestAssured/restassured"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/andnovoa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="Test_00Creat_User_Already_Exist" classname="UserTests" time="4.365"/>
+  <testcase name="Test_00Creat_User_Successful" classname="UserTests" time="0.969"/>
+  <testcase name="Test_01Creat_Comment_Successful" classname="CommentTest" time="0.621"/>
+  <testcase name="Test_11Creat_Post_Successful" classname="PostTest" time="1.074"/>
+  <testcase name="Test_02Call_Comment_Successful_All" classname="CommentTest" time="0.562"/>
+  <testcase name="Test_03Call_Comment_Successful_One" classname="CommentTest" time="0.691"/>
+  <testcase name="Test_12Call_Post_Successful_All" classname="PostTest" time="0.592"/>
+  <testcase name="Test_04Update_Comment_Successful" classname="CommentTest" time="0.641"/>
+  <testcase name="Test_05Delete_Comment_Successful" classname="CommentTest" time="0.55"/>
+  <testcase name="Test_31Creat_Post_Unsuccessful" classname="PostTestNoSuccessful" time="0.389"/>
+  <testcase name="Test_32Call_Post_Unsuccessful_All" classname="PostTestNoSuccessful" time="0.533"/>
+  <testcase name="Test_13Call_Post_Successful_One" classname="PostTest" time="1.459"/>
+  <testcase name="Test_14Update_Post_Successful" classname="PostTest" time="1.634"/>
+  <testcase name="Test_15Delete_Post_Successful" classname="PostTest" time="1.8"/>
+  <testcase name="Test_33Call_Post_Unsuccessful_One" classname="PostTestNoSuccessful" time="0.116"/>
+  <testcase name="Test_51Creat_Comment_Successful" classname="CommentTestNoSuccessful" time="0.42"/>
+  <testcase name="Test_34Update_Post_Unsuccessful" classname="PostTestNoSuccessful" time="0.514"/>
+  <testcase name="Test_52Call_Comment_Successful_All" classname="CommentTestNoSuccessful" time="0.709"/>
+  <testcase name="Test_35Delete_Post_Unsuccessful" classname="PostTestNoSuccessful" time="0.419"/>
+  <testcase name="Test_53Call_Comment_Successful_One" classname="CommentTestNoSuccessful" time="0.507"/>
+  <testcase name="Test_54Update_Comment_Successful" classname="CommentTestNoSuccessful" time="0.517"/>
+  <testcase name="Test_55Delete_Comment_Successful" classname="CommentTestNoSuccessful" time="0.537"/>
+</testsuite>

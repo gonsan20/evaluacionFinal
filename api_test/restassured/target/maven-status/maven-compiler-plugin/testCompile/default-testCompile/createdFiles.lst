@@ -1,0 +1,6 @@
+UserTests.class
+CommentTest.class
+PostTest.class
+CommentTestNoSuccessful.class
+PostTestNoSuccessful.class
+BaseTest.class
